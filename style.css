@@ -43,3 +43,12 @@ input{
     /* margin: 1rem; */
     cursor: pointer;
 }
+
+.content {
+    padding: 13px;
+}
+
+h1, p{
+    /* margin-left: 4%; */
+    text-align: center;
+}
