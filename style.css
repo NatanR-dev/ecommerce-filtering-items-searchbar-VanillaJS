@@ -44,8 +44,39 @@ input{
     cursor: pointer;
 }
 
+.item-name{
+    margin-left:15px;
+}
+
 .content {
     padding: 13px;
+}
+
+
+#product-list{
+    display: none;   
+    width: 68%;
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    position: absolute;
+    top: 58px;
+    padding-left: 91px;
+}
+
+#product-list li a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size:18px;
+    color: black;
+    border: 1px solid #ddd;
+    background: #f6f6f6;
+    padding: 12px;
+}
+
+#product-list li a:hover{
+    background: #eee;
 }
 
 h1, p{

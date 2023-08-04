@@ -15,7 +15,8 @@
     <section class="container-mobile">
         <div class="searchbar">
             <img class="logo" src="https://i.ibb.co/v1X2PgG/mercadolivre-logo-small.png" >
-            <input type="text" placeholder="O que você procura?">      
+            <input id="search-input" onkeyup="filter()" type="text" placeholder="O que você procura?">
+                <ul id="product-list"></ul>      
         </div>
 
         <main class="content">
